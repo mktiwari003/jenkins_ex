@@ -10,10 +10,29 @@ pipeline {
               //  withMaven(maven : 'maven_3.6.0') {
                //     bat 'mvn clean compile'
                // }
-                echo "hello"
+                echo "hello Compile Stage"
+            }
+        }
+           stage ('Testing Stage') {
+
+            steps {
+               // withMaven(maven : 'maven_3.6.0') {
+               //     sh 'mvn test'
+               // }
+                 echo "hello Testng Stage"
             }
         }
 
+
+        stage ('Deployment Stage') {
+            steps {
+             ////   withMaven(maven : 'maven_3.6.0') {
+                  //  sh 'mvn deploy'
+              //  }
+                
+                 echo "hello Deployment Stage"
+            }
+        }
        
     }
 }

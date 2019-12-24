@@ -12,6 +12,10 @@ pipeline {
                // }
                 echo "hello Compile Stage"
                 echo "PATH = %PATH%"
+                
+                bat ...
+                 "PATH = %PATH%"
+                ...
             }
         }
            stage ('Testing Stage') {

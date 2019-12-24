@@ -15,6 +15,7 @@ pipeline {
                 
                 bat '''
                  echo "PATH = %PATH%"
+                 echo "MVN_HOME = %MVN_HOME%"
                 '''
             }
         }

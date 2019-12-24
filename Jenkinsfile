@@ -11,6 +11,7 @@ pipeline {
                //     bat 'mvn clean compile'
                // }
                 echo "hello Compile Stage"
+                echo "PATH = %PATH%"
             }
         }
            stage ('Testing Stage') {

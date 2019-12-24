@@ -13,9 +13,9 @@ pipeline {
                 echo "hello Compile Stage"
                 echo "PATH = %PATH%"
                 
-                bat ...
+                bat '''
                  "PATH = %PATH%"
-                ...
+                '''
             }
         }
            stage ('Testing Stage') {

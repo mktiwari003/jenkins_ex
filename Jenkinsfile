@@ -14,7 +14,7 @@ pipeline {
                 echo "PATH = %PATH%"
                 
                 bat '''
-                 "PATH = %PATH%"
+                 echo "PATH = %PATH%"
                 '''
             }
         }

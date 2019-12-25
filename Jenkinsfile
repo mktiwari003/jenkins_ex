@@ -20,7 +20,7 @@ pipeline {
                 '''
             }
         }
-           stage ('Testing Stage') {
+           stage ('Testing clean') {
 
             steps {
                // withMaven(maven : 'maven_3.6.0') {

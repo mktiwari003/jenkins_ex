@@ -37,7 +37,7 @@ pipeline {
                // withMaven(maven : 'maven_3.6.0') {
                //     sh 'mvn test'
                // }
-                 bat 'mvn -e install'
+                 bat 'mvn test'
                  echo "hello Testng Stage"
             }
         }

@@ -1,34 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
   <!DOCTYPE xml>
 <!--  !DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" -->
@@ -46,9 +15,6 @@
       <class name="com.automation.bd.automation_bd.AppTest7"/>
       <class name="com.automation.bd.automation_bd.AppTest8"/>
       <class name="com.automation.bd.automation_bd.AppTest9"/>
-      
-      
-      
-    </classes>
+     </classes>
   </test>
 </suite>

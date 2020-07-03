@@ -11,6 +11,14 @@
       <class name="com.automation.bd.automation_bd.AppTest2"/>
       <class name="com.automation.bd.automation_bd.AppTest3"/>
       <class name="com.automation.bd.automation_bd.AppTest4"/>
+      <class name="com.automation.bd.automation_bd.AppTest5"/>
+      <class name="com.automation.bd.automation_bd.AppTest6"/>
+      <class name="com.automation.bd.automation_bd.AppTest7"/>
+      <class name="com.automation.bd.automation_bd.AppTest8"/>
+      <class name="com.automation.bd.automation_bd.AppTest9"/>
+      
+      
+      
     </classes>
   </test>
 </suite>

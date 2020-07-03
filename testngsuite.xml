@@ -6,7 +6,10 @@
  
   <test name="Regression1">
     <classes>
-      <class name="com.automation.bd.automation_bd.AppTest1"/>
+      
+     <class name="com.automation.bd.automation_bd.AppTest1"/>
+      <class name="com.automation.bd.automation_bd.AppTest2"/>
+      <class name="com.automation.bd.automation_bd.AppTest3"/>
      
     </classes>
   </test>
